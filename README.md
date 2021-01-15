@@ -1,7 +1,9 @@
 ## Economy Bot 💸💸
 
 **A Simple Discord Economy Bot made with quick.db**
+
 `lmao i make only simple things :p`
+
 ### Requirements:
 ```
 - discord.js | V12.5.0 
