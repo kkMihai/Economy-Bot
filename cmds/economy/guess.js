@@ -20,7 +20,7 @@ module.exports.run = async (client, message, args) => {
 
 } else {
    message.channel.send(`Incorrect the right word was ${word.toLowerCase()}, you lost 1 Coin`)
-   db.add(`money_${message.author.id}`, 1)
+   db.subtract(`money_${message.author.id}`, 1)
      }
   })
   }
